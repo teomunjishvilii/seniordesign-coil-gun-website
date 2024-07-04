@@ -1,18 +1,64 @@
-body {
+header .header {
+  padding: 50px 0 50px 0;
+  background-color: #231f20;
+}
+header .header .header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .header_wrapper .logo a {
+  font-size: 48px;
+  color: #ff9900;
+}
+header .header .header_wrapper .navigation nav ul {
+  display: flex;
+  -moz-column-gap: 35px;
+       column-gap: 35px;
+}
+header .header .header_wrapper .navigation nav ul li a {
+  font-size: 22px;
+  color: #ff9900;
   font-family: "Overpass", sans-serif;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
 }
 
-.header_wrapper {
-  padding-top: 50px;
+/* About Section */
+.about_section {
+  background-color: #231f20;
+  height: auto;
 }
-.header_wrapper .container .logo a {
-  font-size: 48px;
+.about_section .about_section_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about_section .about_section_wrapper .text_block {
+  width: 47%;
+}
+.about_section .about_section_wrapper .text_block h3 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 700;
+}
+.about_section .about_section_wrapper .text_block p {
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.about_section .about_section_wrapper .image_block {
+  width: 50%;
+}
+.about_section .about_section_wrapper .image_block img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 /* http://meyerweb.com/eric/tools/css/reset/ 

@@ -3,7 +3,45 @@
 // }
 
 .container {
-  max-width: 1200px;
+  max-width: 1300px;
   width: 100%;
   margin: 0 auto;
+}
+
+/* About Section */
+.about_section {
+  background-color: #231f20;
+  height: auto;
+
+  .about_section_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .text_block {
+      width: 47%;
+
+      h3 {
+        font-size: 40px;
+        color: #ffffff;
+        font-weight: 700;
+      }
+
+      p {
+        font-size: 22px;
+        color: #ffffff;
+        font-weight: 300;
+        margin-top: 40px;
+      }
+    }
+
+    .image_block {
+      width: 50%;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
 }
