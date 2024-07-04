@@ -1,0 +1,16 @@
+header {
+  .header {
+    padding-top: 50px;
+
+    .header_wrapper {
+      .logo {
+        a {
+          font-size: 48px;
+          color: yellow;
+          color: $primary-color;
+          font-family: "Overpass", sans-serif;
+        }
+      }
+    }
+  }
+}
