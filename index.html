@@ -6,8 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Coil Gun</title>
 
-    <!-- css link -->
-    <link rel="stylesheet" href="./styles/css/global.css" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <!-- css links -->
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/fonts.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Header -->
@@ -23,10 +31,14 @@
           <div class="navigation">
             <nav>
               <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">3D Model</a></li>
-                <li><a href="#">Functional Decomposition</a></li>
-                <li><a href="#">Team Members</a></li>
+                <li><a href="#about_section">About</a></li>
+                <li><a href="#three_d_model_section">3D Model</a></li>
+                <li>
+                  <a href="#functional_decomposition_section"
+                    >Functional Decomposition</a
+                  >
+                </li>
+                <li><a href="#team_members_section">Team Members</a></li>
               </ul>
             </nav>
           </div>
@@ -42,7 +54,7 @@
           <div class="about_section_wrapper container">
             <!-- Text Block -->
             <div class="text_block">
-              <h3>About the project</h3>
+              <h3><span> About </span> the project</h3>
               <p>Here goes a brief description of the project</p>
             </div>
 
@@ -53,9 +65,171 @@
           </div>
         </div>
       </section>
+
+      <!-- 3D Model Section -->
+      <section>
+        <div class="three_d_model_section" id="three_d_model_section">
+          <div class="three_d_model_section_wrapper container">
+            <h3><span>3D</span> Model</h3>
+            <p>Here goes either the 3d model or the slider</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Functional Decomposition Section -->
+      <section>
+        <div
+          class="functional_decomposition_section"
+          id="functional_decomposition_section"
+        >
+          <div class="functional_decomposition_section_wrapper container">
+            <h3><span>Functional</span> Decomposition</h3>
+            <p>
+              Here goes the functional decomposition schematics of the project
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Team Members Section -->
+      <section>
+        <div class="team_members_section" id="team_members_section">
+          <div class="team_members_section_wrapper container">
+            <h3><span>Team</span> Members</h3>
+
+            <div class="blocks">
+              <!-- Block 1-->
+              <div class="each_block">
+                <div class="image">
+                  <img
+                    src="./assets/team-members.png"
+                    alt="team-members-icon"
+                  />
+                </div>
+
+                <div class="text_block">
+                  <h5>Hashem ElGendy</h5>
+                  <p>Computer Engineer</p>
+
+                  <div class="social_media_icons">
+                    <!-- Email Icon-->
+                    <div class="email">
+                      <a href="mailto:hashem.elgendy.1@iliauni.edu.ge"
+                        ><i class="fas fa-envelope"></i
+                      ></a>
+                    </div>
+
+                    <!-- Discord Icon-->
+                    <div class="discord">
+                      <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Block 2 -->
+              <div class="each_block">
+                <div class="image">
+                  <img
+                    src="./assets/team-members.png"
+                    alt="team-members-icon"
+                  />
+                </div>
+
+                <div class="text_block">
+                  <h5>Ahmed Sweis</h5>
+                  <p>Computer Engineer</p>
+
+                  <div class="social_media_icons">
+                    <!-- Email Icon-->
+                    <div class="email">
+                      <a href="mailto:ahmad.sweis.1@iliauni.edu.ge"
+                        ><i class="fas fa-envelope"></i
+                      ></a>
+                    </div>
+
+                    <!-- Discord Icon-->
+                    <div class="discord">
+                      <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Block 3 -->
+              <div class="each_block">
+                <div class="image">
+                  <img
+                    src="./assets/team-members.png"
+                    alt="team-members-icon"
+                  />
+                </div>
+
+                <div class="text_block">
+                  <h5>Teona Munjishvili</h5>
+                  <p>Computer Engineer</p>
+
+                  <div class="social_media_icons">
+                    <!-- Email Icon-->
+                    <div class="email">
+                      <a href="mailto:teona.munjishvili.1@iliauni.edu.ge"
+                        ><i class="fas fa-envelope"></i
+                      ></a>
+                    </div>
+
+                    <!-- Discord Icon-->
+                    <div class="discord">
+                      <a href="#"><i class="fab fa-discord"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
     <!-- Footer -->
-    <footer></footer>
+    <footer>
+      <div class="footer container">
+        <!-- 1st column -->
+        <div class="column">
+          <div class="logo">
+            <a href="index.html">Coil Gun</a>
+          </div>
+        </div>
+
+        <!-- 2nd column-->
+        <div class="column">
+          <nav>
+            <ul>
+              <li><a href="#about_section">About</a></li>
+              <li><a href="#three_d_model_section">3D Model</a></li>
+              <li>
+                <a href="#functional_decomposition_section"
+                  >Functional Decomposition</a
+                >
+              </li>
+              <li><a href="#team_members_section">Team Members</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <!-- 3rd column-->
+        <div class="column">
+          <p>Contact</p>
+          <a href="mailto:hashem.elgendy.1@iliauni.edu.ge"
+            >hashem.elgendy.1@iliauni.edu.ge</a
+          >
+          <a href="mailto:ahmad.sweis.1@iliauni.edu.ge"
+            >ahmad.sweis.1@iliauni.edu.ge</a
+          >
+          <a href="mailto:teona.munjishvili.1@iliauni.edu.ge"
+            >teona.munjishvili.1@iliauni.edu.ge</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
