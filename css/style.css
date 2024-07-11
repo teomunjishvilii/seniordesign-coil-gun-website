@@ -109,7 +109,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 
 /* Functional Decomposition Section */
 .functional_decomposition_section {
-  background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%);
+  /* background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%); */
   padding: 100px 0 100px 0;
 }
 
@@ -126,6 +126,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 /* Team Members Section */
 .team_members_section {
   padding: 100px 0 100px 0;
+  background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%);
 }
 
 .team_members_section .team_members_section_wrapper .blocks {
@@ -136,6 +137,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 
 .team_members_section .team_members_section_wrapper .blocks .each_block {
   width: 30%;
+  /* background-color: #231f20; */
   box-shadow: 0 8px 16px rgba(255, 153, 0, 0.5);
   padding: 30px;
   display: flex;
@@ -239,7 +241,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 footer {
   border-top: 2px solid #ff9900;
   padding: 70px 0 70px 0;
-  background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%);
+  /* background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%); */
 }
 
 .footer {
