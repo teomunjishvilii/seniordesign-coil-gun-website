@@ -68,7 +68,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 
 /* About Section */
 .about_section {
-  background-color: #383536;
+  background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%);
 }
 
 .about_section .about_section_wrapper {
@@ -109,7 +109,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 
 /* Functional Decomposition Section */
 .functional_decomposition_section {
-  background-color: #383536;
+  background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%);
   padding: 100px 0 100px 0;
 }
 
@@ -239,7 +239,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 footer {
   border-top: 2px solid #ff9900;
   padding: 70px 0 70px 0;
-  background-color: #383536;
+  background: linear-gradient(to bottom, #231f20 0%, #4c4345 70%, #231f20 100%);
 }
 
 .footer {
