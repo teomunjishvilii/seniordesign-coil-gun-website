@@ -6,3 +6,12 @@
   font-weight: normal;
   font-style: normal;
 }
+
+/* Montserrat font */
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
