@@ -15,7 +15,6 @@ h3 {
   font-size: 40px;
   color: #ffffff;
   font-weight: 700;
-  margin-top: 150px;
 }
 
 h3 span {
@@ -69,13 +68,13 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 
 /* About Section */
 .about_section {
-  background-color: #231f20;
+  background-color: #383536;
 }
 
 .about_section .about_section_wrapper {
   display: flex;
   justify-content: space-between;
-  height: 400px;
+  padding-top: 100px;
 }
 .about_section .about_section_wrapper .text_block {
   width: 49%;
@@ -91,23 +90,28 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 }
 .about_section .about_section_wrapper .image_block {
   width: 52%;
-  height: 100%;
-  padding-top: 10%;
+  height: 400px;
 }
 .about_section .about_section_wrapper .image_block img {
   width: 100%;
   height: 100%;
-  -o-object-fit: contain;
   object-fit: contain;
 }
 
 /* 3D Model Section */
+.three_d_model_section {
+  padding: 100px 0 100px 0;
+}
 
 .three_d_model_section .three_d_model_section_wrapper .model {
   margin-top: 40px;
 }
 
 /* Functional Decomposition Section */
+.functional_decomposition_section {
+  background-color: #383536;
+  padding: 100px 0 100px 0;
+}
 
 .functional_decomposition_section .schematics {
   margin-top: 40px;
@@ -120,8 +124,12 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 }
 
 /* Team Members Section */
+.team_members_section {
+  padding: 100px 0 100px 0;
+}
+
 .team_members_section .team_members_section_wrapper .blocks {
-  margin: 40px 0 100px 0;
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
@@ -231,6 +239,7 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 footer {
   border-top: 2px solid #ff9900;
   padding: 70px 0 70px 0;
+  background-color: #383536;
 }
 
 .footer {
@@ -262,5 +271,6 @@ footer {
 
 .footer .column:nth-child(3) a {
   font-size: 16px;
-  color: #ffffff;
+  color: #231f20;
+  font-weight: 500;
 }
