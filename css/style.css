@@ -74,11 +74,13 @@ header .header .header_wrapper .navigation nav ul li a:hover::after,
 .about_section .about_section_wrapper {
   display: flex;
   justify-content: space-between;
-  padding-top: 100px;
+  align-items: top;
+  padding-top: 30px;
 }
 .about_section .about_section_wrapper .text_block {
   width: 49%;
   height: 100%;
+  margin-top: 10%;
 }
 
 .about_section .about_section_wrapper .text_block p {
